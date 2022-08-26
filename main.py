@@ -2,8 +2,8 @@ from data import data_list
 from book import Book
 
 
-def run_analysis():
-    books = create_book_list(data_list)
+def run_analysis(book_list):
+    books = create_book_list(book_list)
     print('')
     print("*******************************************************************")
     print('')
@@ -71,4 +71,4 @@ def bonus_analysis_three(book_list):
     print("Analysis of which book has appeared the most consecutively on top 50's list")
 
 
-run_analysis()
+run_analysis(data_list)
