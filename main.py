@@ -53,7 +53,7 @@ def analysis_two(book_list):
 
 
 def analysis_three(book_list):
-    print("Analysis of which genre has appeared the most in the top 50's list, and how many times it has appeared")
+    print("Analysis of which book has appeared the most in the top 50's list, and how many times it has appeared")
 
 
 # BONUS USER STORIES:
